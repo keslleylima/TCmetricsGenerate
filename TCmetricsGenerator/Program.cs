@@ -50,7 +50,7 @@ namespace TestPathConsole
         {
             string projectPath = @"PROJECT_PATH"; // For example, @"D:\GitHub\TCmetricsGenerator\Projects\Lang"
 
-            //CsvGeneratorTestPath(projectPath); This setup can be used to generate the test case metrics for each test path.
+            CsvGeneratorTestPath(projectPath); //This setup can be used to generate the test case metrics for each test path.
 
             CsvGeneratorTestCase(projectPath);
         }
